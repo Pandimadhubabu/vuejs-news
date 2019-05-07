@@ -5,7 +5,7 @@ const ApiKey = config.KEY;
 const SECTIONS = "home, arts, automobiles, books, business, fashion, food, health, insider, magazine, movies, national, nyregion, obituaries, opinion, politics, realestate, science, sports, sundayreview, technology, theater, tmagazine, travel, upshot, world"; // From NYTimes
 
 function buildUrl (url) {
-    return NYTBaseUrl + url + ".json?api-key=" + ApiKey;
+    return https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/nytimes-api.json;
 }
 
 Vue.component('news-list', {
